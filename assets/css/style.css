@@ -1,0 +1,98 @@
+body{
+    margin: auto;
+    background: rgb(212, 177, 18);
+}
+h1{
+    background: url("../imgs/Headerimage.png");
+    margin: 0;
+    padding: 0.5rem 3rem;
+    color: tomato;
+}
+
+.container{
+    margin: .5rem auto;
+    background: orange;
+    width: 960px;
+    text-align: center;
+    font-weight: bolder;
+    padding: 1rem;
+    letter-spacing: 1px;
+    overflow: auto;
+
+}
+
+.TargetScore{
+    position: relative;
+    float: left;
+    background-color: green;
+    margin: .5rem;
+    color: purple;
+    height: 70px;
+    width: 300px;
+}
+
+.winloss{
+    position: relative;
+    float: left;
+    background-color: blue;
+    margin: .5rem;
+    color: black;
+    height: 70px;
+    width: 300px;
+}
+
+.wins{
+    margin: .5rem;
+}
+
+.losses{
+    margin: .5rem;
+}
+
+.button1{
+    position: relative;
+    background: lightblue;
+    float: left;
+    margin: .5rem;
+    height: 100px;
+    width: 100px;
+}
+
+.button2{
+    position: relative;
+    background: lightblue;
+    float: left;
+    margin: .5rem;
+    height: 100px;
+    width: 100px;
+}
+
+.button3{
+    position: relative;
+    background: lightblue;
+    float: left;
+    margin: .5rem;
+    height: 100px;
+    width: 100px;
+}
+
+.button4{
+    position: relative;
+    background: lightblue;
+    float: left;
+    margin: .5rem;
+    height: 100px;
+    width: 100px;
+}
+
+.scoreHelp{
+    margin: .5rem;
+    height: 20px;
+    width: 200px;
+}
+
+.scoreAmt{
+    margin: .5rem;
+    height: 200px;
+    width: 200px;
+}
