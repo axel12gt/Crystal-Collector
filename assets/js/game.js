@@ -8,6 +8,7 @@ $(document).ready(function () {
     //#endregion
 
     //#region functions
+    // randomly selects crystaland goal amount
     function numbers() {
         goal = Math.floor(Math.random() * 100) + 1
         btn1 = Math.floor(Math.random() * 10) + 1
@@ -15,7 +16,7 @@ $(document).ready(function () {
         btn3 = Math.floor(Math.random() * 5) + 1
         btn4 = Math.floor(Math.random() * 15) + 1
     }
-
+    // resets game
     function reset() {
         var result = confirm("Reset game?")
         if (result == true) {
@@ -25,7 +26,7 @@ $(document).ready(function () {
             $(".target").text("Target score: " + goal)
         }
     }
-
+    // adds to win or loss counter
     function win() {
         $(".scoreAmt").text(total);
         if (total == goal) {
@@ -51,11 +52,11 @@ $(document).ready(function () {
 
     //#region Main processes
     numbers()
-
+    // displays target score
     $(".target").text("Target score: " + goal)
 
 
-
+    // all the buttons for the crystals which increase total by their pre assigned random amount
     $(".button1").on("click", function () {
         total += btn1
         win()
