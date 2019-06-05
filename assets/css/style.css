@@ -1,32 +1,38 @@
 body{
     margin: auto;
-    background: rgb(212, 177, 18);
+    background: rgb(183, 217, 78);
+
 }
 h1{
-    background: url("../imgs/Headerimage.png");
+
     margin: 0;
     padding: 0.5rem 3rem;
-    color: tomato;
+}
+
+
+.color{
+    letter-spacing: 0;
+color: black;
+font-weight: bold;
+font-size: 110%;
 }
 
 .container{
     margin: .5rem auto;
-    background: orange;
     width: 960px;
     text-align: center;
     font-weight: bolder;
     padding: 1rem;
     letter-spacing: 1px;
     overflow: auto;
+    overflow: hidden;
 
 }
 
 .TargetScore{
     position: relative;
     float: left;
-    background-color: green;
     margin: .5rem;
-    color: purple;
     height: 70px;
     width: 300px;
 }
@@ -34,9 +40,7 @@ h1{
 .winloss{
     position: relative;
     float: left;
-    background-color: blue;
     margin: .5rem;
-    color: black;
     height: 70px;
     width: 300px;
 }
@@ -51,7 +55,6 @@ h1{
 
 .button1{
     position: relative;
-    background: lightblue;
     float: left;
     margin: .5rem;
     height: 100px;
@@ -60,7 +63,6 @@ h1{
 
 .button2{
     position: relative;
-    background: lightblue;
     float: left;
     margin: .5rem;
     height: 100px;
@@ -69,7 +71,6 @@ h1{
 
 .button3{
     position: relative;
-    background: lightblue;
     float: left;
     margin: .5rem;
     height: 100px;
@@ -78,7 +79,6 @@ h1{
 
 .button4{
     position: relative;
-    background: lightblue;
     float: left;
     margin: .5rem;
     height: 100px;
@@ -91,8 +91,4 @@ h1{
     width: 200px;
 }
 
-.scoreAmt{
-    margin: .5rem;
-    height: 200px;
-    width: 200px;
-}
+
